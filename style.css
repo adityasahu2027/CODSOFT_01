@@ -156,6 +156,17 @@ padding:10px 20px ;
  .copyright{
     padding-top: 5px;
  }
+ @media (max-width: 768px) {
+  header {
+      height: auto;
+      padding: 20px;
+  }
+}
+.left, .right {
+    flex-basis: 100%;
+    max-width: none;
+    padding: 20px;
+}
 
  
 
